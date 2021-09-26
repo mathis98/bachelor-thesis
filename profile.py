@@ -76,4 +76,4 @@ for ind in result.index:
         finalResult.at[ind, 0] = result.loc[ind, :].mean()
 
 # name of output file
-finalResult.to_csv('trees.csv')
+finalResult.to_csv('movies.csv')
